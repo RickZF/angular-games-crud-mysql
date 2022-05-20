@@ -3,6 +3,7 @@ import morgan from 'morgan';
 import cors from 'cors';
 
 import gamesRoutes from './routes/gamesRoutes';
+import indexRoute from './routes/indexRoute';
 
 class Server{
 
@@ -22,6 +23,7 @@ class Server{
     }
 
     routes(): void{
+        this.app.use('/', indexRoute);
         this.app.use('/api/games', gamesRoutes);
     }
 
