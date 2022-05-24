@@ -10,7 +10,7 @@
             <textarea name="description" [(ngModel)]="game.description" rows="2" placeholder="Description" class="form-control"></textarea>
           </div>
           <div class="mb-3">
-            <input type="url" name="image" [(ngModel)]="game.image" placeholder="Image" class="form-control">
+            <input type="url" name="image" [(ngModel)]="game.image" placeholder="Image URL" class="form-control">
           </div>
           <div class="d-grid gap-2">
             <button type="button" class="btn btn-success" (click)="edit ? updateGame():saveNewGame()">
