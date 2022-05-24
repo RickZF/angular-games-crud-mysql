@@ -2,18 +2,18 @@
 Antes de comenzar debes tener instalado Visual studio Code, NodeJS, Git, TypeScript, Angular CLI y XAMPP
 
 Pasos para arrancar el proyecto
-1) Abrir terminal de Git y clonar el proyecto, usar el comando: git clone https://github.com/RickZF/angular-games-crud-mysql.git
-2) Abrir XAMPP activar Apache y MySQL, en phpmyadmin crear la base de datos con el archivo database/database.sql
+1) Abrir una terminal de Git y clonar el proyecto con el comando: git clone https://github.com/RickZF/angular-games-crud-mysql.git
+2) Abrir XAMPP activar Apache y MySQL, luego abrir phpMyAdmin y crear la base de datos con el archivo database/database.sql que se encuentra en el proyecto
 3) Abrir la carpeta del proyecto con Visual Studio Code y abrir una terminal con ctrl+shift+ñ
 4) Moverse a la carpeta server con el comando: cd server
 5) Dentro de server instalar las dependencias con el comando: npm install 
 6) Dentro de server activar el watch mode de TypeScript con el comando: npm run build
-7) Abrimos otra terminal nos movemos a server y arrancamos la REST API con el comando: npm run dev
-8) Abrimos otra terminal (esta sería la tercera terminal abierta) y nos movemos a la carpeta client con el comando: cd client
-9) Dentro de client escribimos el comando: npm install
-10) Arrancamos el servidor de angular con el comando: npm run start
-11) Abrimos el navegador chrome y en la barra de direcciones escribimos http://localhost:4200/
-12) Observaremos la barra de navegación del proyecto, ir a la pestaña add game para comenzar a agregar juegos en la base de datos
+7) Abrir otra terminal, moverse a la carpeta server y arrancar la REST API con el comando: npm run dev
+8) Abrir otra terminal (esta sería la tercera terminal abierta) moverse a la carpeta client con el comando: cd client
+9) Dentro de la carpeta client escribir el comando: npm install
+10) Dentro de la carpeta client arrancar el servidor de Angular con el comando: npm run start
+11) Abrir el navegador Chrome y en la barra de direcciones escribir http://localhost:4200/
+12) Presionar el botón ADD GAME en la barra de navegación del proyecto para agregar juegos en la base de datos
 
 ![](docs/screenshot.png)
 ![](docs/screenshot2.png)
