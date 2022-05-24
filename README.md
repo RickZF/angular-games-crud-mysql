@@ -17,4 +17,3 @@ Pasos para arrancar el proyecto
 
 ![](docs/screenshot.png)
 ![](docs/screenshot2.png)
-![](docs/screenshot3.png)
