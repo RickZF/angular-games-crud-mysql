@@ -3,11 +3,11 @@
 ![](docs/screenshot.png)
 ![](docs/screenshot2.png)
 
-Antes de comenzar debes tener instalado Visual studio Code, NodeJS, Git, TypeScript, Angular CLI y XAMPP
+Antes de comenzar debes tener instalado Visual studio Code, NodeJS, Git, TypeScript, Angular CLI y WampServer
 
 Pasos para arrancar el proyecto
 1) Abrir una terminal de Git y clonar el proyecto con el comando: git clone https://github.com/RickZF/angular-games-crud-mysql.git
-2) Abrir XAMPP activar Apache y MySQL, luego abrir phpMyAdmin y crear la base de datos con el archivo database/database.sql que se encuentra en el proyecto
+2) Abrir WampServer luego phpMyAdmin y crear la base de datos con el archivo database/database.sql que se encuentra en el proyecto
 3) Abrir la carpeta del proyecto con Visual Studio Code y abrir una terminal con ctrl+shift+ñ
 4) Moverse a la carpeta server con el comando: cd server
 5) Dentro de server instalar las dependencias con el comando: npm install 
