@@ -1,4 +1,8 @@
 # angular-games-crud-mysql
+
+![](docs/screenshot.png)
+![](docs/screenshot2.png)
+
 Antes de comenzar debes tener instalado Visual studio Code, NodeJS, Git, TypeScript, Angular CLI y XAMPP
 
 Pasos para arrancar el proyecto
@@ -14,6 +18,3 @@ Pasos para arrancar el proyecto
 10) Dentro de la carpeta client arrancar el servidor de Angular con el comando: npm run start
 11) Abrir el navegador Chrome y en la barra de direcciones escribir http://localhost:4200/
 12) Presionar el botón ADD GAME en la barra de navegación del proyecto para agregar juegos en la base de datos
-
-![](docs/screenshot.png)
-![](docs/screenshot2.png)
