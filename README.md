@@ -1,4 +1,4 @@
-# angular-games-crud-mysql
+# angular-games-mysql-apicrud
 
 ![](docs/screenshot.png)
 ![](docs/screenshot2.png)
